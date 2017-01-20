@@ -1,0 +1,144 @@
+body{
+	font-family: sans-serif;
+}
+img{
+
+}
+*{
+
+}
+section{/*
+	background-image: url(../images/wolverine.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+*/
+}
+.coming-soon{
+	position: absolute;
+    top: 54%;
+    left: 51%;
+    z-index: 1;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+}
+.coming-soon img{
+	
+}
+.coming-soon h1{
+	font-size: 50px;
+    margin: 0 auto;
+    padding: 6px;
+    letter-spacing: 4px;
+}
+.coming-soon h2{}
+.coming-soon p{
+	color: #eee;
+}
+.coming-soon a{
+	color: #fff;
+    text-decoration: none;
+    margin: 9px;
+    padding: 7px 15px;
+    background: #29221a;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.coming-soon a:hover{
+	color: black;
+	background:#e0dcd7;
+
+}
+#coming-soon{
+
+}
+#coming-soon:after{
+	position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 103%;
+    width: 100%;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.41);
+}
+#coming-soon > img{
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+
+}
+
+.menu{
+	position: absolute;
+    top: -9px;
+    left: -33px;
+    z-index: 1;
+    height: 102vh;
+    border: 1px solid #999;
+}
+ul.nav{}
+.nav li{
+	list-style: none;
+	text-align: center;
+}
+.nav li a, .social li a{
+	text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 21px 0;
+    text-transform: uppercase;
+    border: 1px solid rgba(238, 238, 238, 0.53);
+    font-size: 13px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.nav li a:hover{
+	color: black;
+	background:#e0dcd7;
+
+}
+.social li a:hover{
+	color: black;
+	background:#e0dcd7;
+
+}
+.nav li a i{
+	display: block;
+}
+
+ul.social{
+	position: absolute;
+    bottom: -17px;
+    width: 92px;
+}
+.social li{
+	list-style: none;
+	text-align: center;
+}
+
+.social li a i{
+	display: block;
+}
+
+
+
+
+
+/*.overlay{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 103%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}*/
