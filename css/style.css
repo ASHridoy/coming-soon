@@ -115,6 +115,8 @@ ul.nav{}
 }
 .nav li a i{
 	display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 ul.social{
